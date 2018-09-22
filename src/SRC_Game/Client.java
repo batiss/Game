@@ -1,5 +1,5 @@
 
-package SCR_Game;
+package SRC_Game;
 
 import java.io.IOException;
 import java.io.PrintWriter;
