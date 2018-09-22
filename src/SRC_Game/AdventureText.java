@@ -62,7 +62,10 @@ public class AdventureText implements Runnable{
                             break;
                             
                         case "2B":
-                            write.println("");
+                            write.println("faz um loop em torno de um arco e se conecta com outro túnel no cava."
+                                    + " Você sente partes do piso rangendo e se movendo embaixo de você enquanto anda."
+                                    + "RUN ---> 5A"
+                                    + "PISE COM CUIDADO ---> 6A");
                             break;
                             
                         case "1C":
@@ -118,7 +121,26 @@ public class AdventureText implements Runnable{
                             write.println("");
                             break;
                             
+                        case "5A":
+                            write.println("Você corre e o túnel sobe em um declive e ao redor em uma espécie de "
+                                    + "escada em espiral feita de pedras."
+                                    + "CONTINUA CORRENDO ---> 5B");
+                            break;
                         
+                        case "5B":
+                            write.println("Você não pode dizer se está vendo fantasmas ou neblina,"
+                                    + " mas é difícil ver através dessas nuvens em movimento. "
+                                    + "Você sente o seu caminho ao longo da parede e pensa que"
+                                    + " encontrou uma superfície plana e lisa.\t"
+                                    + "Press 3B para examinar a superfície \t"
+                                    + "Press 4B para continuar procurando.");
+                            break;
+                            
+                        case "6A":
+                            write.println("");
+                            break;
+                            
+                            
                         case "1Z":
                             write.println("Os ecos do seu último grito foram tudo o que você ouviu antes"
                                     + " que a escuridão eterna o atingisse."
